@@ -24,7 +24,11 @@ result = model(img)
 ```
 
 Result of model is: {"cls": ndarray , "conf": ndarray, "xywh": ndarray}
+
 where,
+
 cls.shape is (num_of_boxes, ), is box classification
+
 conf.shape is (num_of_boxes, ), is classification confidance
+
 xywh.shape is (num_of_boxes, 4), is box information in [top_left_x, top_left_y, box_width, box_height]
