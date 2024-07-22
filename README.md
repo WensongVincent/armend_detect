@@ -1,8 +1,10 @@
 ## Checkpoint
-Trained .pth ckpt location: /mnt/afs/huwensong/workspace/R3_factory_tool_arm_calib/runs/detect/train6/weights/best.pt
+Trained .pth ckpt location: 
+/mnt/afs/huwensong/workspace/R3_factory_tool_arm_calib/runs/detect/train6/weights/best.pt
 
 
-Exported .Onnx ckpt location: /mnt/afs/huwensong/workspace/R3_factory_tool_arm_calib/onnx/best.onnx
+Exported .Onnx ckpt location: 
+/mnt/afs/huwensong/workspace/R3_factory_tool_arm_calib/onnx/best.onnx
 
 
 ## Usage:
@@ -27,8 +29,8 @@ Result of model is: {"cls": ndarray , "conf": ndarray, "xywh": ndarray}
 
 where,
 
-cls.shape is (num_of_boxes, ), is box classification
+**cls** is box classification, cls.shape is (num_of_boxes, ), 
 
-conf.shape is (num_of_boxes, ), is classification confidance
+**conf** is classification confidance, conf.shape is (num_of_boxes, )
 
-xywh.shape is (num_of_boxes, 4), is box information in [top_left_x, top_left_y, box_width, box_height]
+**xywh** is box information in [top_left_x, top_left_y, box_width, box_height], xywh.shape is (num_of_boxes, 4)
