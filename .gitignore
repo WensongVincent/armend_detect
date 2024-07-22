@@ -3,6 +3,7 @@
 *.jpg
 *.jepg
 *.txt
+*.onnx
 
 ckpts
 data_processed
