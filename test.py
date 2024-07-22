@@ -20,3 +20,4 @@ for result in results:
 
     result.save(filename=f"result{i}.jpg")  # save to disk f'/mnt/afs/huwensong/workspace/R3_factory_tool_arm_calib/result/{name}'
     i += 1
+    # import pdb; pdb.set_trace()
