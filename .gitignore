@@ -1,0 +1,10 @@
+*.pt
+*.png
+*.jpg
+*.jepg
+*.txt
+
+ckpts
+data_processed
+result*
+runs
