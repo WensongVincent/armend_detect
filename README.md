@@ -33,4 +33,4 @@ where,
 
 **conf** is classification confidance, conf.shape is (num_of_boxes, )
 
-**xywh** is box information in [top_left_x, top_left_y, box_width, box_height], xywh.shape is (num_of_boxes, 4)
+**xywh** is box information in [box_center_x, box_center_y, box_width, box_height], xywh.shape is (num_of_boxes, 4)
