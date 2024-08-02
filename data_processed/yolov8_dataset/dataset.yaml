@@ -1,0 +1,9 @@
+path: /mnt/afs/huwensong/workspace/R3_factory_tool_arm_calib/data_processed/yolov8_dataset
+train: images/train
+# val: images/val
+val: images/val_no_obscure
+
+names: 
+  0: 'circle-L'
+  1: 'circle-S'
+  2: 'circle-S-obscured'

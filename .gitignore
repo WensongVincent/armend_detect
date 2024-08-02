@@ -5,6 +5,7 @@
 *.txt
 
 ckpts
-data_processed
+data_processed/yolov8_dataset/images
+data_processed/yolov8_dataset/labels
 result*
 runs
